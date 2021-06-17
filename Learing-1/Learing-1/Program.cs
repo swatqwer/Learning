@@ -9,7 +9,7 @@ namespace Lesson_1
             Console.WriteLine("Как вас зовут?");
             String name = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine($"Привет, {name}! \nСегодня {DateTime.Now}");
+            Console.WriteLine($"Привет, {name}! \nСегодня: {DateTime.Now.ToString("dd.MM.yyyy")} \nВремя: {DateTime.Now.ToString("HH:mm:ss")}");
             Console.ReadKey();
         }
     }
